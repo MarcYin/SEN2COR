@@ -155,7 +155,7 @@ setup(
     name=name,
     version=version,
     description='sen2cor: Sentinel 2 Level 2A Prototype Processor',
-    long_description=open('README.md').read(),
+    #long_description=open('README.md').read(), # No README.md file
     packages=find_packages(),
     include_package_data=True,
     platforms=['linux-x86_64', 'macosx-10.5-x86_64', 'win-amd64'],
